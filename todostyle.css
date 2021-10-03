@@ -1,0 +1,42 @@
+#toDoList {
+    list-style: none;
+    text-align: center;
+    color: white;
+    margin: 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+#toDoForm input {
+    all: unset;
+    width: 20em;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    font-size: 10px;
+}
+
+
+#toDoList button {
+    background-color: #2B2E31;
+    outline: 0;
+    border: 0;
+    color: white;
+    opacity: 0.7;
+    padding: 7px; 
+}
+
+#toDoList li {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+
+

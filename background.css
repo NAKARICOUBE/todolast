@@ -1,0 +1,49 @@
+:is(.prev, .next) {
+    position:absolute;
+    top: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease 0.5s;
+}
+
+.prev {
+    left:0;
+    padding:5px;
+}
+.next {
+    right:0;
+    padding:5px;
+}
+
+:is(.prev, .next):hover {
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.dot{
+    width:15px;
+    height: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin:0 3px;
+    margin-top: 3px;
+    
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+    cursor: pointer;
+}
+
+
+
+.dotAlign {
+    display: inline-block;
+    margin-top: 2em;
+}
+

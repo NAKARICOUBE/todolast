@@ -1,0 +1,72 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    align-items: center;
+}
+.quote{
+    position: relative;
+    height: 100%;
+    animation: 10s linear infinite slide;
+}
+
+.quote ul{
+    margin: 0;
+}
+.quote li{
+    font-family: 'Ephesis', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+@keyframes slide {
+            0% { transform: translateX(-15vw);
+                opacity: 0; }
+            20% { transform: translateX(0) ;
+                  opacity: 1; }
+            80% { transform: translateX(0) ;
+                  opacity: 1;}
+            100% { transform: translateX(15vw);
+                   opacity: 0;}   
+}
+
+.setUp {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.setUp a {
+    all: unset;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.geoWeatherDegree {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.geoWeatherDegree span {
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px; 
+}
+

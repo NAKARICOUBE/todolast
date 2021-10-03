@@ -1,0 +1,25 @@
+.listCheck {
+    overflow: auto;
+}
+
+.listCheck ul {
+   color: white;
+     
+}
+.listCheck li {
+    display: flex;
+    width: 100%;
+    padding: 7px 0;
+    color: white;
+}
+
+.listCheckContent {
+    width: 90%;
+    height: 100%;
+}
+
+
+#listCheckBox:checked + label {
+    text-decoration: line-through;
+    color: black;
+}
